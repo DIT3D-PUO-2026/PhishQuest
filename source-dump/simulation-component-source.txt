@@ -1,0 +1,97 @@
+var Cl=30,wl=[{sender:`Maybank Security`,subject:`Akaun Anda Telah Digantung`,date:`Hari Ini, 10:30 PG`,content:`Pelanggan yang dihormati,
+
+Akaun anda telah digantung kerana terdapat aktiviti yang mencurigakan.
+
+Sila sahkan akaun anda melalui pautan di bawah.
+
+https://maybank-secure-login.xyz
+
+Kegagalan untuk mengesahkan akaun dalam tempoh 24 jam boleh menyebabkan akaun anda digantung secara kekal.
+
+Terima kasih.`,isPhishing:!0,explanation:`E-mel ini adalah phishing kerana menggunakan domain yang mencurigakan dan memberi tekanan kepada pengguna untuk bertindak segera.`,redFlags:[`Domain pautan bukan domain rasmi Maybank.`,`Menggunakan ancaman akaun akan digantung.`,`Meminta pengguna klik pautan untuk pengesahan.`]},{sender:`Google`,subject:`Amaran Keselamatan Google`,date:`Hari Ini, 11:15 PG`,content:`Hai,
+
+Kami mengesan percubaan log masuk baharu ke akaun anda.
+
+Jika ini adalah anda, anda tidak perlu melakukan apa-apa.
+
+Jika anda tidak mengenali aktiviti ini, sila buka Google Account secara manual melalui aplikasi atau laman rasmi Google.
+
+Terima kasih,
+Google Security`,isPhishing:!1,explanation:`E-mel ini selamat kerana tidak meminta pengguna memasukkan kata laluan atau klik pautan mencurigakan.`,redFlags:[`Tiada pautan mencurigakan.`,`Tidak meminta kata laluan.`,`Mengarahkan pengguna membuka laman rasmi secara manual.`]},{sender:`Shopee Malaysia`,subject:`Tahniah! Anda Memenangi Baucar RM500`,date:`Hari Ini, 12:20 PTG`,content:`Tahniah!
+
+Anda telah dipilih sebagai pemenang baucar RM500.
+
+Untuk menuntut hadiah anda, sila lengkapkan maklumat melalui pautan berikut:
+
+https://shopee-reward-claim.xyz
+
+Tuntutan mesti dibuat dalam masa 2 jam.
+
+Terima kasih.`,isPhishing:!0,explanation:`E-mel ini adalah phishing kerana menawarkan hadiah yang tidak dijangka dan menggunakan pautan domain yang mencurigakan.`,redFlags:[`Hadiah yang tidak dijangka.`,`Domain bukan domain rasmi.`,`Memberi tekanan masa untuk bertindak.`]},{sender:`Netflix`,subject:`Resit Pembayaran Bulanan Anda`,date:`Semalam, 8:45 PG`,content:`Hai,
+
+Pembayaran langganan Netflix anda telah berjaya diproses.
+
+Jumlah: RM55.90
+
+Anda boleh menyemak butiran langganan melalui aplikasi Netflix.
+
+Terima kasih,
+Netflix`,isPhishing:!1,explanation:`E-mel ini dianggap selamat kerana hanya memberikan maklumat transaksi dan tidak meminta maklumat sensitif.`,redFlags:[`Tiada permintaan kata laluan.`,`Tiada pautan pembayaran mencurigakan.`,`Maklumat hanya bersifat pemberitahuan.`]},{sender:`J&T Express`,subject:`Penghantaran Parcel Gagal`,date:`Hari Ini, 2:10 PTG`,content:`Pelanggan yang dihormati,
+
+Penghantaran parcel anda tidak dapat dilakukan kerana alamat tidak lengkap.
+
+Sila kemas kini alamat dan bayar caj penghantaran RM3.00 melalui pautan berikut:
+
+https://jtexpress-payment.xyz
+
+Sila lakukan pembayaran dalam masa 6 jam.
+
+Terima kasih.`,isPhishing:!0,explanation:`E-mel ini adalah phishing kerana meminta bayaran melalui pautan yang bukan domain rasmi.`,redFlags:[`Meminta bayaran melalui pautan.`,`Domain mencurigakan.`,`Menggunakan had masa untuk mendesak pengguna.`]},{sender:`PUO Student Portal`,subject:`Notifikasi Jadual Akademik`,date:`Hari Ini, 9:00 PG`,content:`Assalamualaikum,
+
+Jadual akademik bagi semester semasa telah dikemaskini.
+
+Sila semak jadual anda melalui portal pelajar rasmi PUO.
+
+Terima kasih.`,isPhishing:!1,explanation:`E-mel ini selamat kerana hanya memberikan notifikasi dan tidak meminta maklumat peribadi atau pembayaran.`,redFlags:[`Tiada permintaan maklumat sensitif.`,`Tiada pautan mencurigakan.`,`Maklumat boleh disemak melalui portal rasmi.`]},{sender:`Touch 'n Go eWallet`,subject:`Akaun Anda Memerlukan Pengesahan`,date:`Hari Ini, 3:30 PTG`,content:`Pelanggan yang dihormati,
+
+Akaun anda telah dikesan mempunyai masalah keselamatan.
+
+Sila sahkan akaun anda sekarang untuk mengelakkan akaun disekat.
+
+https://tng-secure-verification.xyz
+
+Kegagalan berbuat demikian dalam masa 12 jam akan menyebabkan akaun anda ditamatkan.`,isPhishing:!0,explanation:`E-mel ini adalah phishing kerana menggunakan domain palsu dan menggunakan ancaman untuk memaksa pengguna bertindak.`,redFlags:[`Domain mencurigakan.`,`Menggunakan ancaman akaun ditamatkan.`,`Meminta pengguna melakukan pengesahan melalui pautan.`]},{sender:`Microsoft 365`,subject:`Mesyuarat Microsoft Teams`,date:`Hari Ini, 4:00 PTG`,content:`Hai,
+
+Anda telah dijemput ke mesyuarat Microsoft Teams.
+
+Tarikh: Jumaat
+Masa: 10:00 PG
+
+Sila semak jemputan melalui kalendar Microsoft Teams anda.
+
+Terima kasih.`,isPhishing:!1,explanation:`E-mel ini selamat kerana hanya memberikan maklumat mesyuarat dan tidak meminta maklumat akaun.`,redFlags:[`Tiada permintaan kata laluan.`,`Tiada permintaan pembayaran.`,`Maklumat boleh disemak melalui aplikasi rasmi.`]},{sender:`WhatsApp Support`,subject:`Akaun WhatsApp Anda Akan Disekat`,date:`Hari Ini, 5:15 PTG`,content:`Amaran!
+
+Akaun WhatsApp anda akan disekat kerana melanggar polisi keselamatan.
+
+Untuk mengelakkan akaun disekat, sila sahkan nombor telefon anda melalui pautan berikut:
+
+https://whatsapp-security-check.xyz
+
+Tindakan diperlukan dalam masa 30 minit.`,isPhishing:!0,explanation:`E-mel ini adalah phishing kerana menggunakan tekanan masa dan pautan domain yang mencurigakan.`,redFlags:[`Had masa yang sangat singkat.`,`Domain bukan domain rasmi.`,`Meminta pengesahan melalui pautan.`]},{sender:`Spotify`,subject:`Langganan Spotify Berjaya Diperbaharui`,date:`Semalam, 7:30 PG`,content:`Hai,
+
+Langganan Spotify Premium anda telah berjaya diperbaharui.
+
+Jumlah pembayaran telah direkodkan dalam akaun anda.
+
+Untuk melihat sejarah pembayaran, buka aplikasi Spotify.
+
+Terima kasih,
+Spotify`,isPhishing:!1,explanation:`E-mel ini selamat kerana tidak meminta pengguna memberikan maklumat akaun atau melakukan pembayaran melalui pautan luar.`,redFlags:[`Tiada permintaan kata laluan.`,`Tiada pautan pembayaran luar.`,`Pengguna diarahkan menggunakan aplikasi rasmi.`]},{sender:`Bank Negara Malaysia`,subject:`Tuntutan Bantuan Kewangan Segera`,date:`Hari Ini, 6:00 PTG`,content:`Tahniah!
+
+Anda layak menerima bantuan kewangan sebanyak RM1,500.
+
+Untuk menerima bayaran tersebut, sila masukkan maklumat akaun bank dan nombor TAC melalui pautan berikut:
+
+https://bantuan-bnm-claim.xyz
+
+Tuntutan perlu dibuat sebelum tengah malam.`,isPhishing:!0,explanation:`E-mel ini adalah phishing kerana meminta maklumat perbankan dan TAC melalui pautan yang mencurigakan.`,redFlags:[`Meminta nombor TAC.`,`Meminta maklumat akaun bank.`,`Domain mencurigakan.`,`Menawarkan wang secara tiba-tiba.`]}];function Tl(e){let t=[...e];for(let e=t.length-1;e>0;e--){let n=Math.floor(Math.random()*(e+1));[t[e],t[n]]=[t[n],t[e]]}return t}function El(){let[e,t]=(0,v.useState)(()=>Tl(wl)),[n,r]=(0,v.useState)(0),[i,a]=(0,v.useState)(null),[o,s]=(0,v.useState)(!1),[c,l]=(0,v.useState)(0),[u,d]=(0,v.useState)(0),[f,p]=(0,v.useState)(!1),[m,h]=(0,v.useState)(!1),[g,_]=(0,v.useState)(Cl),[y,b]=(0,v.useState)(!1),[x,S]=(0,v.useState)(!1),[C,w]=(0,v.useState)(!1),[T,E]=(0,v.useState)(!1),D=(0,v.useRef)(0),O=(0,v.useRef)(0),k=(0,v.useRef)(!1),A=(0,v.useRef)(!1),j=e[n];(0,v.useEffect)(()=>{if(!f||m||o||y)return;let e=setInterval(()=>{_(t=>t<=1?(clearInterval(e),0):t-1)},1e3);return()=>clearInterval(e)},[f,m,o,y,n]),(0,v.useEffect)(()=>{f&&!m&&!o&&g===0&&P()},[g,f,m,o]);function M(e){let t=Math.floor(e/60),n=e%60;return`${String(t).padStart(2,`0`)}:${String(n).padStart(2,`0`)}`}function N(){let e=Tl(wl);t(e),r(0),a(null),s(!1),l(0),d(0),D.current=0,O.current=0,_(Cl),b(!1),S(!1),w(!1),h(!1),E(!1),k.current=!1,A.current=!1,p(!0)}function P(){o||m||!f||(Sl(),a(null),s(!0),w(!0),S(!1),b(!0))}function F(e){if(o||m||!f)return;let t=e===j.isPhishing;a(e),s(!0),w(!1),S(t),b(!0),t?(xl(),D.current+=1,O.current+=10,l(D.current),d(O.current)):Sl()}function I(){if(!(T||m)){if(b(!1),n<e.length-1){r(e=>e+1),a(null),s(!1),w(!1),S(!1),_(Cl);return}L()}}async function L(){if(k.current||A.current)return;k.current=!0,A.current=!0,E(!0);let t=D.current,n=O.current,r=Math.round(t/e.length*100);try{let{data:{user:i}}=await Ac.auth.getUser();if(i){let{error:a}=await Ac.from(`simulation_results`).insert([{profile_id:i.id,score:t,total_questions:e.length,percentage:r,xp_earned:n,created_at:new Date().toISOString()}]);a&&console.error(`Simulation result save error:`,a);let{data:o}=await Ac.from(`profiles`).select(`total_xp`).eq(`id`,i.id).single();if(o){let e=o.total_xp||0;await Ac.from(`profiles`).update({total_xp:e+n}).eq(`id`,i.id)}}}catch(e){console.error(`Simulation result error:`,e)}l(t),d(n),E(!1),h(!0)}function R(){let e=Tl(wl);t(e),r(0),a(null),s(!1),l(0),d(0),D.current=0,O.current=0,_(Cl),b(!1),S(!1),w(!1),p(!1),h(!1),E(!1),k.current=!1,A.current=!1}if(!f)return(0,W.jsxs)(W.Fragment,{children:[(0,W.jsx)(vl,{}),(0,W.jsx)(`div`,{className:`simulation-page`,children:(0,W.jsx)(`div`,{className:`simulation-start-screen`,children:(0,W.jsxs)(`div`,{className:`simulation-start-modal`,children:[(0,W.jsx)(`div`,{className:`simulation-start-icon`,children:`📧`}),(0,W.jsx)(`h1`,{children:`Simulasi E-mel Phishing`}),(0,W.jsx)(`p`,{children:`Uji kebolehan anda mengenal pasti e-mel phishing dan e-mel yang selamat.`}),(0,W.jsxs)(`div`,{className:`simulation-info`,children:[(0,W.jsxs)(`div`,{className:`simulation-info-card`,children:[(0,W.jsx)(`span`,{children:`📩`}),(0,W.jsx)(`strong`,{children:`12`}),(0,W.jsx)(`small`,{children:`E-mel`})]}),(0,W.jsxs)(`div`,{className:`simulation-info-card`,children:[(0,W.jsx)(`span`,{children:`🟢`}),(0,W.jsx)(`strong`,{children:`6`}),(0,W.jsx)(`small`,{children:`Selamat`})]}),(0,W.jsxs)(`div`,{className:`simulation-info-card`,children:[(0,W.jsx)(`span`,{children:`🔴`}),(0,W.jsx)(`strong`,{children:`6`}),(0,W.jsx)(`small`,{children:`Phishing`})]}),(0,W.jsxs)(`div`,{className:`simulation-info-card`,children:[(0,W.jsx)(`span`,{children:`⏱️`}),(0,W.jsx)(`strong`,{children:`30s`}),(0,W.jsx)(`small`,{children:`Setiap E-mel`})]})]}),(0,W.jsx)(`div`,{className:`simulation-start-warning`,children:`💡 Setiap e-mel mempunyai masa 30 saat untuk dijawab. Timer akan reset kepada 30 saat untuk e-mel seterusnya.`}),(0,W.jsx)(`button`,{className:`simulation-start-btn`,onClick:N,children:`🚀 Mula Simulasi`})]})})})]});if(m){let t=Math.round(c/e.length*100);return(0,W.jsxs)(W.Fragment,{children:[(0,W.jsx)(vl,{}),(0,W.jsx)(`div`,{className:`simulation-page`,children:(0,W.jsx)(`div`,{className:`simulation-result-screen`,children:(0,W.jsxs)(`div`,{className:`simulation-result-modal`,children:[(0,W.jsx)(`div`,{className:`simulation-result-icon`,children:`🎉`}),(0,W.jsx)(`h1`,{children:`Simulasi Selesai!`}),(0,W.jsx)(`p`,{children:`Tahniah! Anda telah melengkapkan semua 12 simulasi e-mel.`}),(0,W.jsxs)(`div`,{className:`simulation-final-score`,children:[(0,W.jsxs)(`div`,{children:[(0,W.jsx)(`span`,{children:`Skor`}),(0,W.jsxs)(`strong`,{children:[c,` / `,e.length]})]}),(0,W.jsxs)(`div`,{children:[(0,W.jsx)(`span`,{children:`Markah`}),(0,W.jsxs)(`strong`,{children:[t,`%`]})]}),(0,W.jsxs)(`div`,{children:[(0,W.jsx)(`span`,{children:`XP`}),(0,W.jsxs)(`strong`,{children:[`⭐ +`,u]})]})]}),(0,W.jsxs)(`div`,{className:`simulation-final-message`,children:[t>=80&&(0,W.jsxs)(W.Fragment,{children:[(0,W.jsx)(`div`,{className:`result-message-title`,children:`🏆 Cemerlang!`}),(0,W.jsx)(`p`,{children:`Anda sangat baik dalam mengenal pasti e-mel phishing.`})]}),t>=50&&t<80&&(0,W.jsxs)(W.Fragment,{children:[(0,W.jsx)(`div`,{className:`result-message-title`,children:`👍 Bagus!`}),(0,W.jsx)(`p`,{children:`Anda sudah mempunyai asas yang baik. Teruskan berlatih.`})]}),t<50&&(0,W.jsxs)(W.Fragment,{children:[(0,W.jsx)(`div`,{className:`result-message-title`,children:`💡 Jangan risau!`}),(0,W.jsx)(`p`,{children:`Cuba semula dan perhatikan red flags dengan lebih teliti.`})]})]}),(0,W.jsx)(`button`,{className:`simulation-restart-btn`,onClick:R,children:`🔄 Cuba Semula`})]})})})]})}j.isPhishing;let z=(n+1)/e.length*100;return(0,W.jsxs)(W.Fragment,{children:[(0,W.jsx)(vl,{}),(0,W.jsxs)(`div`,{className:`simulation-page`,children:[(0,W.jsxs)(`div`,{className:`simulation-header`,children:[(0,W.jsxs)(`div`,{children:[(0,W.jsx)(`h1`,{children:`📧 Simulasi E-mel Phishing`}),(0,W.jsx)(`p`,{children:`Kenal pasti sama ada e-mel ini selamat atau phishing.`})]}),(0,W.jsxs)(`div`,{className:`simulation-timer ${g<=10?`timer-danger`:g<=20?`timer-warning`:``}`,children:[`⏱️ `,M(g)]})]}),(0,W.jsxs)(`div`,{className:`simulation-progress-container`,children:[(0,W.jsxs)(`div`,{className:`simulation-progress-top`,children:[(0,W.jsxs)(`span`,{children:[`📩 E-mel `,n+1,` /`,` `,e.length]}),(0,W.jsxs)(`span`,{children:[`⭐ XP: `,u]})]}),(0,W.jsx)(`div`,{className:`simulation-progress-bar`,children:(0,W.jsx)(`div`,{className:`simulation-progress-fill`,style:{width:`${z}%`}})})]}),(0,W.jsxs)(`div`,{className:`simulation-container`,children:[(0,W.jsxs)(`div`,{className:`email-list`,children:[(0,W.jsx)(`h2`,{children:`📥 Peti Masuk`}),e.map((e,t)=>(0,W.jsxs)(`div`,{className:`email-item ${t===n?`active`:``} ${t<n?`completed`:``}`,children:[(0,W.jsx)(`div`,{className:`email-number`,children:t+1}),(0,W.jsxs)(`div`,{className:`email-item-content`,children:[(0,W.jsx)(`strong`,{children:e.sender}),(0,W.jsx)(`p`,{children:e.subject})]}),t<n&&(0,W.jsx)(`span`,{className:`email-check`,children:`✓`})]},`${e.sender}-${t}`))]}),(0,W.jsxs)(`div`,{className:`email-view`,children:[(0,W.jsxs)(`div`,{className:`toolbar`,children:[(0,W.jsx)(`button`,{disabled:!0,children:`↩ Balas`}),(0,W.jsx)(`button`,{disabled:!0,children:`→ Majukan`}),(0,W.jsx)(`button`,{disabled:!0,children:`🗑 Padam`})]}),(0,W.jsxs)(`div`,{className:`email-header`,children:[(0,W.jsx)(`h2`,{children:j.subject}),(0,W.jsxs)(`p`,{children:[(0,W.jsx)(`strong`,{children:`Daripada:`}),` `,j.sender]}),(0,W.jsxs)(`p`,{children:[(0,W.jsx)(`strong`,{children:`Tarikh:`}),` `,j.date]})]}),(0,W.jsx)(`div`,{className:`emailContent`,children:j.content}),!o&&(0,W.jsxs)(`div`,{className:`buttons`,children:[(0,W.jsx)(`button`,{className:`safe`,onClick:()=>F(!1),children:`🟢 Selamat`}),(0,W.jsx)(`button`,{className:`danger`,onClick:()=>F(!0),children:`🔴 Phishing`})]})]})]}),y&&(0,W.jsx)(`div`,{className:`simulation-feedback-overlay`,children:(0,W.jsxs)(`div`,{className:`simulation-feedback-popup ${x?`correct`:`wrong`}`,children:[(0,W.jsx)(`div`,{className:`feedback-icon`,children:x?`🎉`:C?`⏰`:`❌`}),(0,W.jsx)(`h1`,{children:x?`BETUL!`:C?`MASA TAMAT!`:`SALAH!`}),x&&(0,W.jsx)(`div`,{className:`feedback-xp`,children:`⭐ +10 XP`}),!x&&(0,W.jsxs)(`div`,{className:`correct-answer-box`,children:[(0,W.jsx)(`strong`,{children:`Jawapan yang betul:`}),(0,W.jsx)(`p`,{children:j.isPhishing?`🔴 Phishing`:`🟢 Selamat`})]}),(0,W.jsxs)(`div`,{className:`explanation-box`,children:[(0,W.jsx)(`h3`,{children:`💡 Penjelasan`}),(0,W.jsx)(`p`,{children:j.explanation})]}),(0,W.jsxs)(`div`,{className:`red-flags-box`,children:[(0,W.jsx)(`h3`,{children:`🔍 Perkara yang perlu diperhatikan`}),(0,W.jsx)(`ul`,{children:j.redFlags.map((e,t)=>(0,W.jsx)(`li`,{children:e},t))})]}),(0,W.jsx)(`button`,{className:`simulation-next-btn`,onClick:I,disabled:T,children:T?`⏳ Menyimpan...`:n===e.length-1?`🏆 Lihat Keputusan`:`E-mel Seterusnya →`})]})})]})]})}
